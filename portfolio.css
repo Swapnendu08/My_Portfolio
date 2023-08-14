@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: rgba(1, 1, 5, 0.78);
+    height: 13vh;
+}
+
+.top ul li {
+    display: inline-block;
+    padding: 5vh 3vw;
+    color: rgb(238, 226, 226);
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.img img {
+    margin: 1vh 0vw;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 165px;
+    height: 19vw;
+}
+
+.img img:hover {
+    border-color: black;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.top ul li:hover {
+    text-decoration: underline;
+}
+
+.top ul li img {
+    height: 20px;
+    width: 24px;
+}
+
+.img {
+    display: inline-block;
+    /* background-color: aquamarine; */
+    margin: 0vw;
+}
+
+.main {
+    display: inline-block;
+    /* background-color: aqua; */
+    width: 68vw;
+    position: absolute;
+    top: 13vh;
+    left: 20vw;
+    font-size: 4vw;
+}
+
+.main ul {
+    margin-top: 0vh;
+    margin-left: 1vw;
+}
+
+.main li {
+    display: inline-block;
+    font-size: 2vw;
+    color: black;
+}
+
+.main ul li h3 {
+    margin: -1vw;
+}
+
+.skills {
+    display: inline-block;
+    /* border: 2px solid black; */
+    /* background-color: brown; */
+    height: 56vh;
+    width: 19vw;
+    position: absolute;
+    top: 27vw;
+    left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.skills li {
+    display: inline-block;
+    margin-top: 1.5vh;
+    margin-left: 0vw;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    background-color: rgb(51, 46, 46);
+    color: white;
+    height: 3.5vh;
+    width: 18vw;
+    text-align: center;
+}
+
+.skills li:hover {
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+.interest {
+    display: inline-block;
+    /* border: 2px solid black; */
+    /* background-color: royalblue; */
+    height: 12vh;
+    width: 88vw;
+    position: absolute;
+    top: 72vw;
+    left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.interest li {
+    display: inline-block;
+    margin-top: 1.5vh;
+    margin-left: 2.5vw;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    background-color: rgb(51, 46, 46);
+    color: white;
+    height: 3.5vh;
+    width: 18vw;
+    text-align: center;
+    /* font-size: 8px; */
+}
+
+.interest li:hover {
+    background-color: blueviolet;
+    font-weight: bold;
+}
+
+.projects {
+    display: inline-block;
+    /* background-color: blueviolet; */
+    height: 167vh;
+    width: 90vw;
+    position: absolute;
+    top: 175vh;
+    left: 0.5vw;
+    font-size: 2vw;
+}
+
+.images {
+    display: inline-block;
+    /* background-color: red; */
+    height: 158vh;
+    width: 17vw;
+}
+
+.images ul li {
+    display: inline-block;
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+#links {
+    display: inline-block;
+    width: 71.5vw;
+    height: 160vh;
+    /* background-color: brown; */
+    position: absolute;
+    top: 23vh;
+    margin-left: 1vw;
+    margin-top: -19vh;
+}
+
+#links .link1 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 5vh;
+    margin: 5vw 1vh;
+}
+
+#links .link2 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 5vh;
+    margin: 0vw 1vw;
+}
+
+#links .link3 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 5vh;
+    margin: 3vw 1vw;
+}
+
+#links .link4 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 5vh;
+    margin: -2vw 1vw;
+}
+
+#links .link5 {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 5vh;
+    margin: 4vw 1vw;
+}
+
+footer {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 342vh;
+    height: 6vw;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 5vh;
+}
